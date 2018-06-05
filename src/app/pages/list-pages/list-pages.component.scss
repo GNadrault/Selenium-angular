@@ -1,0 +1,32 @@
+.page-select{
+    cursor: pointer;
+}
+
+.mailbox-controls{
+    padding-left: 15px;
+}
+
+.btn-checkall{
+    width: 30px;
+    height: 30px;
+    padding: 2px 5px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    line-height: 1.33;
+
+}
+
+.btn-checkone{
+    width: 20px;
+    height: 20px;
+    padding: 1px 3px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    font-size: 10px;
+    line-height: 1.33;
+}
+
+.lbl-page{
+    margin-left: 2em;
+}

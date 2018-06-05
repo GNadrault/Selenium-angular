@@ -1,0 +1,20 @@
+<div class="header-pages">
+    <div class="header-pages-title">
+        <h1>
+            Tests
+            <small>Selenium SIE</small>
+        </h1>
+    </div>
+    <div class="header-pages-button">
+        <div class="form-group">
+            <label>Navigateur</label>
+            <select class="form-control select2" style="width: 100%;" [(ngModel)]="navigateurSelected">
+                <option *ngFor="let nav of navigateurs">{{nav}}</option>
+            </select>
+        </div>
+        <div class="button-tester">
+            <button type="button" class="btn btn-block btn-success btn-lg" (click)="onTester()" [disabled]="!selectedOne || !newReport">
+                <i class="fa fa-spinner fa-spin" *ngIf="!newReport"></i>Tester</button>
+        </div>
+    </div>
+</div>
